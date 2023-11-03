@@ -1,8 +1,8 @@
 /* eslint-disable camelcase */
 const axios = require("axios");
-const { countTokens } = require("@av-backend/tokenizer");
-const { setRedis, getRedis } = require("@av-backend/redis");
-const { delay } = require("@av-backend/delay");
+const { countTokens } = require("./lib/tokenizer/index");
+const { setRedis, getRedis } = require("./lib/redis/index");
+const { delay } = require("./lib/delay/index");
 const {
   EMBEDDINGS_TPM_MAX,
   baseURL,
