@@ -1,0 +1,10 @@
+{
+  "name": "@av-backend/tokenizer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "@dqbd/tiktoken": "^1.0.7"
+  }
+}
