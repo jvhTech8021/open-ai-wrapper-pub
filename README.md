@@ -7,7 +7,7 @@ This repository is designed to manage requests to the OpenAI API. The code inclu
 1. **Manage Multiple OpenAI Accounts**: Rotate between different OpenAI accounts based on token consumption and request limits.
 2. **Redis Integration**: Uses Redis to store and retrieve token and request data associated with different OpenAI accounts.
 3. **Retrying Requests**: If a request fails due to insufficient tokens, the code will wait and then try again using another account or the same account after a delay.
-4. **Token Counting**: Uses the `@av-backend/tokenizer` library to count tokens in a request.
+4. **Token Counting**: library to count tokens in a request.
 5. **Embedding and Chat Creation**: Includes methods to create embeddings and chat completions with OpenAI.
 
 ## Dependencies:
